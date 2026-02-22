@@ -1,4 +1,4 @@
-var z=94;
+var z=100;
 
 function mege8os(){
 		var w = innerWidth;
@@ -19,4 +19,5 @@ function showScreen(name){
   document.querySelectorAll('.nav-btn').forEach(b=>b.classList.remove('active'));
   document.querySelectorAll('[data-screen="'+name+'"]').forEach(b=>b.classList.add('active'));
 }
+
 function toggleCb(el){ el.classList.toggle('checked'); }
