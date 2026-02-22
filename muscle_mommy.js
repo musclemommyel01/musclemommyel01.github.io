@@ -1,3 +1,5 @@
+var z=94;
+
 function mege8os(){
 		var w = innerWidth;
         var h = innerHeight;
