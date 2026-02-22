@@ -187,6 +187,7 @@ function onload() {
     mege8os();
     loadExercises();
     statistics()
+    mege8os();
 };
 
 
@@ -235,4 +236,5 @@ async function statistics() {
 
     fetch(API_URL, { method: 'POST', body: JSON.stringify(payload) })
         .catch(err => console.error("Stats error:", err));
+
 }
