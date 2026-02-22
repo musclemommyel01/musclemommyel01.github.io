@@ -1,4 +1,4 @@
-var z=100;
+var z=99.5;
 
 function mege8os(){
 		var w = innerWidth;
@@ -21,3 +21,4 @@ function showScreen(name){
 }
 
 function toggleCb(el){ el.classList.toggle('checked'); }
+
